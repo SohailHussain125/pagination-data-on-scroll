@@ -70,6 +70,7 @@ function App() {
       isDisabled: 'yes'
     }])
   }, [])
+  
   useEffect(() => {
     !isLoading && inView && getTodos()
   }, [inView])
